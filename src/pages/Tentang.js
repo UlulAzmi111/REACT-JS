@@ -1,6 +1,6 @@
 function Tentang() {
     return (
-      <div className="Tentang">
+      <div className="App">
         <h1>Tentang SMK REVIT</h1>
         <p>isi tentang smk revit</p>
         
