@@ -7,6 +7,7 @@ import Tentang from './pages/Tentang';
 import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Siswa from './pages/Siswa';
+import Menu from './pages/Menu';
 // import { Component } from 'react';
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/tentang" element={<Tentang />} />
             <Route path="/kontak" element={<Kontak />} />
             <Route path="/siswa" element={<Siswa />} />
+            <Route path="/menu" element={<Menu />} />
           </Routes>
         </div>
     </BrowserRouter>
