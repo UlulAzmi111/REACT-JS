@@ -6,6 +6,7 @@ import Sejarah from './pages/Sejarah';
 import Tentang from './pages/Tentang';
 import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Siswa from './pages/Siswa';
 // import { Component } from 'react';
 
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="/sejarah" element={<Sejarah />} />
             <Route path="/tentang" element={<Tentang />} />
             <Route path="/kontak" element={<Kontak />} />
+            <Route path="/siswa" element={<Siswa />} />
           </Routes>
         </div>
     </BrowserRouter>
