@@ -28,5 +28,5 @@ function Tabel(props) {
   }
   
   export default Tabel;
-
+ 
   
